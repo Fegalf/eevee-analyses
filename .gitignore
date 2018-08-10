@@ -114,3 +114,5 @@ redis-latest/
 *.xlsx
 donnees.json
 eevee-data.pkl
+
+Digraph*
