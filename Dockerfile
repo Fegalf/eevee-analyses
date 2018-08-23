@@ -8,7 +8,7 @@ USER $NB_USER
 RUN conda install --quiet --yes numpy=1.13
 
 RUN pip install git+https://github.com/Theano/Theano.git
-COPY config/.theanorc "$HOME"/.theanorc 
+COPY .theanorc "$HOME"/.theanorc 
 RUN pip install git+https://github.com/pymc-devs/pymc3
 
 RUN pip install pystan tqdm
